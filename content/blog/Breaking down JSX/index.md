@@ -1,7 +1,7 @@
 ---
 title: 'Breaking down JSX'
 date: '2019-12-21'
-category: "Shorts"
+category: "React"
 ---
 ![](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/10/1506909912jsx.jpg)
 
