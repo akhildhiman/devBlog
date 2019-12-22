@@ -75,6 +75,7 @@
     "post": "node ./cli/create-new-post.js",
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${50904633}/${github page name}.github.io.git'",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "start": "npm run develop",

@@ -1,7 +1,7 @@
 ---
 title: "State Management with Redux"
 date: "2019-12-11"
-category: "Redux"
+category: "React"
 ---
 
 ![](https://i.pinimg.com/originals/71/f0/a4/71f0a4c41735f951f9823725ee42cf8a.png)
