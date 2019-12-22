@@ -6,7 +6,7 @@ category: "React"
 
 ![](https://reactjs.org/logo-og.png)
 
-You might've heard about _Lifting Your State_ hundreds of times before but have really been unable to comprehend what does it actually mean, neither did I.
+You might've heard about _Lifting Your State_ hundreds of times before but have really been unable to comprehend what does it actually mean, neither do I.
 
 So, I looked up the [official docs](https://reactjs.org/docs/lifting-state-up.html) and it says- _**Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor.**_ 
 
@@ -62,7 +62,7 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-First off, we have a **Counter** component. This component has the state initialised with a value of counter set to zero. Also, we have increment and decrement methods. The output would something look like this.
+First off, we have a **Counter** component. This component has the state initialized with a value of counter set to zero. Also, we have increment and decrement methods. The output would something look like this.
 
 <iframe
      src="https://codesandbox.io/embed/agitated-tereshkova-hjcby?fontsize=14&hidenavigation=1&theme=dark"
@@ -175,7 +175,7 @@ ReactDOM.render(<App />, rootElement);
 
 <br>
 
-Now, the funny part is,you might've done this unknowingly before or you'd consider this approach to be the general way of doing it. I totally agree with you, but yeah, that's the whole lifting state up fuzz is. Even the docs definition would make some sense now.
+Now, the funny part is, you might've done this unknowingly before or you'd consider this approach to be the general way of doing it. I totally agree with you, but yeah, that's the whole lifting state up fuzz is. Even the docs definition would make some sense now.
 
 Try the **[CodeSandBox](https://codesandbox.io/s/strange-thunder-h1i7m)** here.
 
