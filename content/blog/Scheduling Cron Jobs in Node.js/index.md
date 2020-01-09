@@ -65,7 +65,7 @@ transporter.sendMail(mailOptions, (err, info) => {
 ```
 <br>
 
-* **_transporter_** is an object that holds the email service we are using, an auth object having sender's email and password. 
+* **_transporter_** is an object that holds the email service we are using, an auth object having the sender's email and password. 
 * **_mailOptions_** contains standard email info. We can also use templates such as ejs or hbs.
 * **_sendMail_** method takes in mailOptions and a callback. 
 
@@ -151,7 +151,7 @@ let transporter = nodemailer.createTransport({
 })
 
 // Here, we're scheduling a cron job and it will send an email at the start of every minute.
-// Info icontains the mail content.
+// Info contains the mail content.
 // In case of sending mail to multiple users, we can add multiple recipients.
 cron.schedule("* * * * *", () => {
     console.log("sending email")
