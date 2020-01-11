@@ -56,6 +56,9 @@ ReactDOM.render(React.createElement(App,
  ), document.getElementById("root"))
 ```
 
+<br><br>
+
+Thank You for reading this article. Follow me on [Twitter](https://twitter.com/_himalayan_) for more updates.
 
 
 
