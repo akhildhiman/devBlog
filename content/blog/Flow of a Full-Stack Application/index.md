@@ -281,8 +281,6 @@ function verifyToken(req, res, next) {
 }
 ```
 
-#[Redux](http://localhost:8000/State%20Management%20with%20Redux/)
-
 
 
 
