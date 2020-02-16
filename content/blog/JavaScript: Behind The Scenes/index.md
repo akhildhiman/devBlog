@@ -58,10 +58,12 @@ const output = 6
 
 <br>
 
-> Call Stack is a data structure that keeps track of our code. It tells us which function's execution context is running, so the thread of execution points to that function in the call stack. Whenever a function is invoked, we create a local execution context and push it to the callstack, and when it's finished, we pop it off. Global code is by default in the call stack as soon as we start running our code.
+> Call Stack is a data structure that keeps track of our code. It tells us which function's execution context is running, so the thread of execution points to that function in the call stack. Whenever a function is invoked, we create a local execution context and push it to the callstack, and when it's finished, we pop it off. Global code is by default in the call stack as soon as we start running our code. There can only be one function running at a time. Callstack helps keep track of that.
+<br>
 
 <br>
 
+![](https://miro.medium.com/max/638/1*CCHexfHNCNo-f8aw3rbRew.jpeg)
 Now, we're back in global. In the last line, we declare another const with the label of ```newOutPut```. Once again, we don't know its final value yet. By default, it is **unitialised**.
 
 ### Local Execution Context of **multiplyBy2(10)**
