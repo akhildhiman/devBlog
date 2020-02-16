@@ -16,6 +16,11 @@ We all know that JavaScript is a single threaded programming language. It means 
 * **Thread of Execution**- goes through line by line and executes the code.
 * **Memory**- the variables and functions declared will be stored in the computer's memory by JavaScript for later use.
 
+Besides this, we also have to understand what function and global code is:
+
+* **Global code** – The default envionment where your code is executed for the first time.
+* **Function code** – Whenever the flow of execution enters a function body.
+
 <br>
 
 Let's look at this example to understand what actually happens when JavaScript sees our code.
