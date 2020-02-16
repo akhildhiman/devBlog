@@ -82,6 +82,14 @@ ___
 
 <br>
 
+### Bullets
+
+You need to use the * in order to create a bullet.
+
+* This is a bullet point.
+
+<br>
+
 ### Links
 
 `[Google](http://www.google.com)` => [Google](http://www.google.com)
