@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 'Flow of a Full-Stack Application'
 date: '2020-01-05'
 category: "React"
@@ -179,7 +179,7 @@ module.exports = app;
 
 
 
-```index.js``` in **client** folder would look like this. 
+<!-- ```index.js``` in **client** folder would look like this. 
 
 ```js
 import React from 'react'
@@ -279,7 +279,7 @@ function verifyToken(req, res, next) {
     return res.json({ token: 'Token Not Found' });
   }
 }
-```
+``` -->
 
 
 
@@ -308,4 +308,4 @@ function verifyToken(req, res, next) {
 
 
 
-
+ -->
