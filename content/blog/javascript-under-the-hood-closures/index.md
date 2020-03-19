@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 'JavaScript Under The Hood: Closures'
 date: '2020-02-19'
 category: "JavaScript"
@@ -48,8 +48,6 @@ Ministry
 <br><br>
 
 There's one thing about ```var``` that it can be reassigned as compared to ```let``` and ```const```.
-
-
 
 
 
@@ -112,4 +110,4 @@ If you want to know about hoisting, you can read my previous article [here](http
 
 
 
-
+ -->
