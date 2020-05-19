@@ -134,33 +134,37 @@ The state is one of the most important concepts in React. Almost everything depe
 This is a simple example of a counter. When the button is being clicked, the count value should increment by one.
 ```js
 
+import React from "react";
+
 class App extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       count: 0
-    }
-    this.handleClick = this.handleClick.bind(this)
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
-    this.setState((prevState) => {
+    this.setState(prevState => {
       return {
         count: prevState.count + 1
-      }
-    })
-
+      };
+    });
   }
 
   render() {
-    return(
+    return (
       <div>
         <h1>{this.state.count}</h1>
         <button onClick={this.handleClick}>Increment</button>
       </div>
-    )
+    );
   }
 }
+
+export default App;
+
 
 ```
 <br>
@@ -174,12 +178,23 @@ this.state.count + 1
 
 Instead, in order to set the state, React uses **setState()** method. It's important to note that setState is asynchronous. In order to avoid that, callback comes in handy. In the above code snippet, while setting our state, we've used a callback receiving prevState as a parameter. So, we return the previous state and increment it by one, every time the button is clicked. 
 
+<br>
 
-<iframe height="400px" width="100%" src="https://repl.it/repls/TepidSharpLifecycle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe
+     src="https://codesandbox.io/embed/nostalgic-brown-vuoum?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="nostalgic-brown-vuoum"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 <br><br><br>
-*Thank You for reading this article.* 
 
+If you want to become an awesome React developer, check out [this](https://www.toptal.com/react#hiring-guide) article from [Toptal](https://www.toptal.com/). It provides a detailed insight into topics like higher order components, functional programming in React, state management, plus many more. So, make sure to check it out!
+
+<br>
+
+**Thank You for reading this article. Follow me on [Twitter](https://twitter.com/_himalayan_) for more updates.**
 
 
 

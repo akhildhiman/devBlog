@@ -4,7 +4,7 @@ date: '2020-02-16'
 category: "JavaScript"
 ---
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9UTas_jNfrVLzDyWYtgJuetp8nqYmKe_hXzEhcZj_Ao8NJHP)
+![](./the_execution_context.png)
 
 
 Before you dive deep into JavaScript, it's important to understand what's going on behind the scenes. 
