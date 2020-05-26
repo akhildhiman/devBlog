@@ -3,7 +3,7 @@ title: 'Double equals vs. Triple equals'
 date: '2019-08-10'
 category: "JavaScript"
 ---
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9UTas_jNfrVLzDyWYtgJuetp8nqYmKe_hXzEhcZj_Ao8NJHP)
+![](./double_equals_vs_triple_equals.png)
 
 You might've come across <b>double and triple equality</b> operators in JavaScript, plus things like type conversion or type coercion. All of it might seem confusing at first, though a better understanding will help you look things in a more vivid manner.
 

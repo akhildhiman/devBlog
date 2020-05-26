@@ -4,7 +4,7 @@ date: '2019-09-10'
 category: "JavaScript"
 ---
 
-![](https://miro.medium.com/max/800/1*_UFRRMoz4KCSW1lsoNylew.jpeg)
+![](./variable_hoisting.png)
 
 Before ES6 came into play, **var**  was the preferred choice of variable declaration in JavaScript, but, var had its own issues which later got resolved with the introduction of **let** and **const** in ECMAScript 2015. Before moving any further, let's first discuss about the var keyword.
 

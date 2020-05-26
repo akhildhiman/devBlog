@@ -3,7 +3,7 @@ title: 'Introduction to DOM'
 date: '2019-08-25'
 category: "JavaScript"
 ---
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9UTas_jNfrVLzDyWYtgJuetp8nqYmKe_hXzEhcZj_Ao8NJHP)
+![](./introduction_to_dom.png)
 
 The Document Object Model, or simply called the DOM, is nothing but a representation of the contents of a web page in the form of an object. In other words, using the **_document_** object, we can change the structure of a page or manipulate it using different properties.
 
