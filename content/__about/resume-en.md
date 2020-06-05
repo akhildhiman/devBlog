@@ -8,9 +8,7 @@ lang: 'en'
 
 <div align="center">
 
-Thank you for coming here. I write mostly about JavaScript and React related stuff. In my free time, I play Ukulele, ride my Mountain Bike and listen to good ol' Rock n' Roll. If you want to contact me, feel free to ping me on [Twitter](https://www.twitter.com/_himalayan_).
-
-
+Thank you for coming here. I write mostly about Web Dev and JavaScript. I'm really passionate about how things work under the hood. In my leisure time, I play Ukulele, ride my Mountain Bike and listen to good ol' Rock and Roll. If you want to contact me, feel free to hit me up on [Twitter](https://www.twitter.com/_himalayan_).
 
 
 </div>
