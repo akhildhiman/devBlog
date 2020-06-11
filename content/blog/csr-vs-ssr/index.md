@@ -1,6 +1,6 @@
 ---
 title: 'Client Side Rendering and Server Side Rendering'
-date: '2019-06-11'
+date: '2020-06-11'
 category: "JavaScript"
 ---
 
@@ -21,9 +21,9 @@ When a client interacts with a website, a response is sent in the form of HTML, 
 * If you see a minimal HTML on the page source, that's definitely CSR.
 * SSR is a bit faster as the HTML gets rendered as compared to the miminal HTML in CSR.
 
----
+<hr>
 <br>
-See what the response from the server looks like in case of `create-react-app`. Look how it's so minimal.
+See what the response from the server looks like in case of create-react-app. 
 
 ```js
 
